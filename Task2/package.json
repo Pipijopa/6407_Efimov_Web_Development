@@ -6,7 +6,7 @@
     "author": "",
     "scripts": {
         "test": "mocha src",
-        "prepare": "husky install",
+        "prepare": "cd .. && husky install Task2/.husky",
         "prettier": "prettier -w .",
         "prettier:check": "prettier -c ."
     },
