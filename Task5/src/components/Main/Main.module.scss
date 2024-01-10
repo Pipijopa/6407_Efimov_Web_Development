@@ -1,0 +1,19 @@
+.mainContent {
+  min-height: calc(100% - 56px);
+  height: calc(100% - 56px);
+  display: flex;
+  flex-flow: row nowrap;
+  border-left: 1px solid #d9d9d9;
+  border-right: 1px solid #d9d9d9;
+
+  &__list {
+    min-width: 427px;
+    padding: 16px;
+    border-right: 1px solid #d9d9d9;
+  }
+
+  &__info {
+    flex-grow: 1;
+    padding: 16px;
+  }
+}

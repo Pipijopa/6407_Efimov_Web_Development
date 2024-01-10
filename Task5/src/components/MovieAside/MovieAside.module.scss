@@ -1,0 +1,15 @@
+.movieList {
+  height: calc(100% - 10px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  height: calc(100% - 128px);
+  overflow: auto;
+}
+
+.list-panel {
+  margin-top: 8px;
+}
