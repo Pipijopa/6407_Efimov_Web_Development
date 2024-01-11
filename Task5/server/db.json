@@ -27,21 +27,21 @@
     {
       "id": 1,
       "title": "Beetlejuice",
-      "year": "1960",
-      "runtime": "92",
+      "year": "1947",
+      "runtime": "106",
       "genres": [
         "Comedy",
-        "Fantasy"
+        " Music"
       ],
       "director": "Tim Burton",
-      "actors": "Alec Baldwin, Geena Davis, Annie McEnroe, Maurice Page",
+      "actors": " Annie McEnroe, Maurice Page",
       "plot": "A couple of recently deceased ghosts contract the services of a \"bio-exorcist\" in order to remove the obnoxious new owners of their house.",
       "posterUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUwODE3MDE0MV5BMl5BanBnXkFtZTgwNTk1MjI4MzE@._V1_SX300.jpg"
     },
     {
       "id": 2,
       "title": "The Cotton Club",
-      "year": "1978",
+      "year": "1979",
       "runtime": "127",
       "genres": [
         "Crime",

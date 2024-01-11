@@ -24,6 +24,11 @@ const MovieEdit = () => {
   const [form, setForm] = useState({
     title: '',
     year: '',
+    runtime: '',
+    actors: '',
+    plot: '',
+    posterUrl: '',
+    genres: []
   });
 
   useEffect(() => {
@@ -33,6 +38,10 @@ const MovieEdit = () => {
   }, [id]);
 
   const onChangeForm = (e) => setForm({...form, [e.target.name]: e.target.value});
+  const onChangeFormGenres = (e) => setForm({...form, [e.target.name]: splitGenres(e.target.value)});
+  const splitGenres = (value) => {
+    return value.split(',')
+  }
 
   const onSubmitForm = (e) => {
     e.preventDefault();
@@ -52,6 +61,11 @@ const MovieEdit = () => {
     <form onSubmit={onSubmitForm}>
       <Input onChange={onChangeForm} value={form.title} name={'title'} />
       <Input onChange={onChangeForm} value={form.year} name={'year'} />
+      <Input onChange={onChangeForm} value={form.runtime} name={'runtime'} />
+      <Input onChange={onChangeForm} value={form.actors} name={'actors'} />
+      <Input onChange={onChangeForm} value={form.plot} name={'plot'} />
+      <Input onChange={onChangeForm} value={form.posterUrl} name={'posterUrl'} />
+      <Input onChange={onChangeFormGenres} value={form.genres} name={'genres'} />
       <Button type={'submit'} onClick={navigateMovie}>Сохранить</Button>
     </form>
   );
@@ -60,6 +74,11 @@ const MovieEdit = () => {
 const nameField = {
   title: 'Название',
   year: 'Год выпуска',
+  runtime: 'Продолжительность',
+  actors: 'Актеры',
+  plot: 'Описание',
+  posterUrl: 'Ссылка на постер',
+  genres: 'Жанры'
 };
 
 const Input = ({name, value, onChange}) => {
