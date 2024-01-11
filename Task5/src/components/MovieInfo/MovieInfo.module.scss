@@ -1,0 +1,48 @@
+.container {
+  padding: 12px 32px;
+  width: 100%;
+}
+
+.movieInfoHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movieInfoBody {
+  display: flex;
+
+  & img {
+    width: auto;
+  }
+}
+
+.rowContainer {
+  display: flex;
+  padding: 6px 0;
+}
+
+.rowTitle {
+  margin-right: 12px;
+  min-width: 170px;
+  color: gray;
+}
+
+.containerInfo {
+  margin-left: 12px;
+}
+
+.titleInfo {
+  margin: 8px 0;
+}
+
+.title {
+  margin: 0;
+}
+
+.director {
+  color: gray;
+}
+
+.genre:not(:last-child) {
+  margin-right: 8px;
+}

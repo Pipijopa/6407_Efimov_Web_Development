@@ -1,0 +1,48 @@
+{
+  "posts": [
+    {
+      "name": "Карандаш",
+      "url": "https://der-artikel.de/images/Bleistift.jpg",
+      "description": "простой",
+      "code": "1",
+      "provider": "Пилю сосну",
+      "id": "18a24c731b9fb"
+    },
+    {
+      "id": "82e43ecb3c924",
+      "name": "Яблоко",
+      "url": "https://catherineasquithgallery.com/uploads/posts/2021-02/1612902251_107-p-yabloki-krasnie-fon-162.jpg",
+      "description": "без червяков",
+      "code": 2,
+      "provider": "Кошелевка"
+    },
+    {
+      "id": "a7e5507b46df8",
+      "name": "Пенал",
+      "url": "https://i.pinimg.com/736x/21/3f/89/213f89e391c3fcfabf132678190277f9.jpg",
+      "description": "крутой, для карандашей",
+      "code": 3,
+      "provider": "Концтовары"
+    },
+    {
+      "id": "7827f6ba4d154",
+      "name": "Кроссовки",
+      "url": "http://klublady.ru/uploads/posts/2022-03/1646996122_119-klublady-ru-p-obraz-zhenskie-krossovki-naik-foto-140.jpg",
+      "description": "43 размер",
+      "code": 4,
+      "provider": "Nike"
+    },
+    {
+      "id": "7827f6ba4d154",
+      "name": "Мочалка",
+      "url": "https://static.insales-cdn.com/images/products/1/5369/173585657/b9da487b-651f-11e6-bf7c-003048de1b8b_super_01.jpg",
+      "description": "можно помыться",
+      "code": 5,
+      "provider": "Саранск"
+    }
+  ],
+  "profile": {
+    "name": "Ефимов Иван",
+    "group": "6407"
+  }
+}

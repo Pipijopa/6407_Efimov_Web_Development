@@ -1,0 +1,89 @@
+html {
+  height: 100%;
+  font-size: 16px;
+}
+
+body {
+  height: 100%;
+  min-height: 100%;
+  font: normal 400 15px/24px 'Roboto', sans-serif;
+  background-color: #f6f7f8;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: #336fee;
+  outline: none;
+  text-decoration: none;
+}
+
+/* Стили для кнопок. Мы ведь порядочные разработчики, негоже простые ссылки оставлять */
+
+button {
+  padding: 8px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6e87e1;
+}
+
+img {
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+::-ms-clear {
+  display: none;
+}
+
+::-ms-reveal {
+  display: none;
+}
+
+.container {
+  max-width: 1358px;
+  margin: 0 auto;
+}
+
+.scroll {
+  padding-right: 10px;
+  scrollbar-width: thin;
+  scrollbar-gutter: stable;
+  scrollbar-color: rgb(199, 199, 199) transparent;
+
+  &::-webkit-scrollbar {
+    margin-left: 4px;
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgb(199, 199, 199);
+
+    &:hover {
+      background: rgb(181, 181, 181);
+    }
+  }
+}
